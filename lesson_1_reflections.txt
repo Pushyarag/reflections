@@ -25,3 +25,7 @@ How might using version control make you more confident to make changes that cou
 So that we can revert back whenever required.
 
 modify
+git clone
+git log 
+git checkout
+git diff

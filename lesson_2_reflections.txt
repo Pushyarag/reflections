@@ -2,3 +2,16 @@ How is the staging area different from the working directory and the repository?
 staging area is the place containing only the required files for a new commit.
 
 How can you use the staging area to make sure you have one commit per logical change?
+
+jokes
+git diff commit 1 commit 2
+git add
+git reset HEAD
+git commit
+git status
+
+git diff
+git diff --staged
+git diff commit 1 commit 2
+
+git branch

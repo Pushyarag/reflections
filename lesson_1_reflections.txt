@@ -25,6 +25,12 @@ How might using version control make you more confident to make changes that cou
 So that we can revert back whenever required.
 
 modify
+cd ../ (for going  back a directory)
+mkdir  (for making new dir)
+mv  (for moving)
+diff -u (for comparing 2 files   -u makes output easier)
+in command prompt the replacement for above command is FC
+
 git clone
 git log 
 git checkout

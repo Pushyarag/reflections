@@ -3,6 +3,19 @@ staging area is the place containing only the required files for a new commit.
 
 How can you use the staging area to make sure you have one commit per logical change?
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+heads ,parents etc
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+dunno
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+HEAD means the current checked out branch (think as a pointer to it).
+
+
 jokes
 git diff commit 1 commit 2
 git add
@@ -10,8 +23,24 @@ git reset HEAD
 git commit
 git status
 
-git diff
-git diff --staged
+git diff(with no arguments shows diff between working directory and staging area)
+git diff --staged(with no arguments shows diff between staging area and recent most commit)
 git diff commit 1 commit 2
 
 git branch
+(with no arguments shows the existing branches)
+
+git branch
+(with a argument creates a new branch)
+
+git log --graph --oneline master coins 
+
+git show commitID shows the diff between the commit and its parent(not intutive in presence of brances).
+git branch -d branch_name  deletes that branch (once test run and understand this)
+
+git merge 
+if conflicts resolve also remove those special lines then save
+then git status
+git add
+git commit
+done
